@@ -1,0 +1,144 @@
+body{
+    height: 700px;
+    width: 600px; background-image: url(https://static.vecteezy.com/system/resources/thumbnails/053/909/308/small/silhouetted-mountains-reflected-in-a-calm-purple-lake-under-a-starry-sky-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.a{
+    height: 400px;
+    width: 300px;
+    border: 3px solid rgba(255, 255, 255, .2);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 15px;
+    background-color:transparent;
+    backdrop-filter: blur(15px);
+    color: white;
+    padding: 20px 35px;
+    box-shadow: 20px 30px 30px  black;
+}
+h1{
+    text-align: center;
+}
+.user{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-family:verdana;
+}
+.pass{
+     width: 100%;
+    height: 30px;
+    outline: none;
+}
+.user input{
+    height: 100%;
+    width: 98%;
+    border-radius: 50px;
+    background: transparent;
+    font-size: medium;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+    padding-left: 15px;
+}
+.pass input{
+    height: 100%;
+    width: 98%;
+    border-radius: 50px;
+     background: transparent;
+     font-size: medium;
+         border: 2px solid rgba(255, 255, 255, .2);
+             color: white;
+                 padding-left: 15px;
+
+
+
+}
+.user ::placeholder{
+    color: white;
+}
+.pass ::placeholder{
+    color: white;
+}
+
+.btn{
+    margin-left: 73px;
+    margin-top: 30px;
+    width: 50%;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow:0 0 20px black;
+}
+.btn:hover{
+    background-color: rgba(49, 170, 207, 0.61);
+   
+}
+.remember a{
+        margin-left: 50px;
+        color: white;
+        font-weight: 300;
+        text-decoration: none;
+       
+}
+.remember label{
+    margin-left: 15px;
+    font-weight: 300;
+}
+.remember a:hover{
+    text-decoration: underline;
+    
+}
+
+.google{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255,.2 );
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    top: 320px;
+    border-radius: 50px;
+    left: 75px;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: rgba(49, 170, 207, 0.61);
+}
+
+h5{
+    margin-left: 97px;
+    font-family: monospace;
+}
+img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+h4{
+        margin-left: 82px;
+    margin-top: -25px;
+}
+.register{
+    margin-top: 60px;
+    color: white;
+    margin-left: 20px;
+        margin-top: 77px;
+}
+.register a{
+    color: white;
+    margin-left: 30px;
+    text-decoration:none;
+    font-weight: 600;
+
+}
+.register a:hover{
+    text-decoration: underline;
+}
